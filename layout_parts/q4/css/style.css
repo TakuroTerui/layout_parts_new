@@ -9,6 +9,11 @@
 .wrapper_lower {
   width: 100%;
   display: table;
+  margin-top:20px;
+}
+
+.wrapper_lower:first-child {
+  margin-top: 0;
 }
 
 .wrapper2:first-child {
