@@ -9,26 +9,27 @@
   border-radius: 30px;
   border: solid 5px #222; 
 }
+
 .text_wrapper:before {
   content: "";
   position: absolute;
   bottom: -34px;
   left: 30px;
-  /* margin-left: -15px; */
   border: 18px solid transparent;
   border-top: 18px solid #FFF;
   z-index: 2;
 }
+
 .text_wrapper:after {
   content: "";
   position: absolute;
   bottom: -44px;
   left: 28px;
-  /* margin-left: -17px; */
   border: 20px solid transparent;
   border-top: 20px solid #222;
   z-index: 1;
 }
+
 .text {
   font-size: 16px;
   line-height: 16px;

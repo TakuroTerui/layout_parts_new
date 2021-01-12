@@ -16,10 +16,6 @@
   margin-top: 0;
 }
 
-.wrapper2:first-child {
-  margin-top: 0;
-}
-
 .text {
   display: table-cell;
   padding: 20px 0;

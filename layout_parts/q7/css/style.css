@@ -8,9 +8,11 @@
   margin-right: 50px;
   box-sizing: border-box;
 }
+
 .q7_1:last-child {
   margin-right: 0;
 }
+
 .clearfix::after {
   content: "";
   display: block;
@@ -22,12 +24,14 @@
 .table_test {
   display: table;
 }
+
 .box_table {
   display: table-cell;
   width: 225px;
   vertical-align: middle;
   padding-left: 50px;
 }
+
 .box_table:first-child {
   padding-left: 0;
 }
@@ -40,7 +44,9 @@
   vertical-align: middle;
   box-sizing: border-box;
   margin-left: 50px;
+  float:left;
 }
+
 .q7_3:first-child {
   margin-left: 0;
 }
@@ -52,6 +58,7 @@
   align-items: flex-end;
   justify-content: space-around;
 }
+
 .boxq7_4 {
   box-sizing: border-box;
   width: 225px;
@@ -63,14 +70,18 @@
   display: inline-block;
   vertical-align: top;
 }
-.kotei {
+
+.fixed {
   width: 300px;
+  float: left;
 }
-.kahen {
+
+.variable {
   box-sizing: border-box;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
+  float: right;
 }
 /* q7-5 */
 /* 回答はここに書いてね */
