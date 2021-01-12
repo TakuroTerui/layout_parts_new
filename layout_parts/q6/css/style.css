@@ -5,16 +5,19 @@
 .align__parent {
   text-align: center;
 }
+
 .text {
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px 0;
 }
-.text1 {
+
+.text_left {
   text-align: center;
   display: inline-block;
 }
-.text2 {
+
+.text_right {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -24,11 +27,13 @@
 .q6_table {
   display: table;
 }
+
 .wrapper__table {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
 .text__table {
   background-color: #fff;
   padding: 10px;
@@ -41,6 +46,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .text__flex {
   background-color: #fff;
   padding: 10px;
@@ -51,7 +57,8 @@
 .is-stable {
   position: relative;
 }
-.kotei {
+
+.fixed {
   position: absolute;
   top: 0;
   right: 0;
@@ -63,7 +70,8 @@
 .is-flexible {
   position: relative;
 }
-.kahen {
+
+.variable {
   position: absolute;
   top: 50%;
   left: 50%;

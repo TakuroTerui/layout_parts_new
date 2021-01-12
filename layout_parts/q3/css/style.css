@@ -1,47 +1,45 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.q3_table {
   table-layout: fixed;
   width: 100%;
 }
-thead {
+.q3_table thead {
   background-color: #2244aa;
   color: #ffffff;
   font-size: 18px;
   line-height: 26px;
 }
 
-tbody tr td:first-child {
+.q3_table tbody tr td:first-child {
   background-color: #2244aa;
   color: #ffffff;
   font-size: 18px;
   line-height: 26px;
 }
 
-tr,td {
-  border: solid #dedede 1px;
-  text-align: center;
-}
 
-tbody tr:nth-child(even) {
+.q3_table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
   font-size: 16px;
   line-height: 22px;
 }
 
-tbody tr:nth-child(odd) {
+.q3_table tbody tr:nth-child(odd) {
   font-size: 16px;
   line-height: 22px;
 }
 
-tbody tr:last-child {
+.q3_table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-td {
+.q3_table tbody tr td, .q3_table thead tr td {
   padding-top: 10px;
   padding-bottom: 10px;
+  border: solid #dedede 1px;
+  text-align: center;
 }
 
 /* 回答はここに書いてね */
